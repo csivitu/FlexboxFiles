@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Todo List</title>
+</head>
+<body>
+    <aside class="asideBar">
+    <div class="upperPart">
+        <h1 style="font-weight: 800; font-size: 3rem;">Task</h1>
+    <input placeholder="Add title" type="text" style="font-weight: 600; font-size: 1.5rem;">
+    <input placeholder="Add description" type="text">
+    </div>
+    <div class="middlePart">
+        <div class="addToList">
+            <h1>Add to List</h1>
+            <select id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+        </div>
+        <div class="addATag">
+            <h1>Add a Tag</h1>
+            <div class="tagsContainer">
+                <button class="tags" style="background-color: aquamarine;">Urgent</button>
+                <button class="tags" style="background-color: yellow;">Completed</button>
+                <button class="tags" style="background-color: orange;">Delayed</button>
+                <button class="tags" style="background-color: pink;">In Progress</button>
+                <button class="tags" style="background-color: yellowgreen;">Emergency</button>
+            </div>
+        </div>
+    </div>
+    <div class="lowerPart">
+        <button class="cancelBtnAside">Cancel</button>
+        <button class="saveBtnAside">Save</button>
+    </div>
+    </aside>
+    
+</body>
+</html>
