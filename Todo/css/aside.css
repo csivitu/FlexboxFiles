@@ -34,9 +34,27 @@ input[type=text]{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 0.5rem;
 }
 .addATag>h1{
     width: 100%;
+}
+.tags{
+    padding: 0.2rem 0.45rem 0.2rem 0.45rem;
+    border: 0;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+.tagsContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: .51rem;
+
 }
 .middlePart{
     width: 100%;
