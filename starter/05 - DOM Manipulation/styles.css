@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: #232323;
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 10px 50px;
+  background-color: #ffffff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.btn:active {
+  scale: 95%;
+}
+.modal {
+  /* These following properties are only for styling */
+  background: burlywood;
+  height: 50vh;
+  aspect-ratio: 1;
+  padding: 2rem;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  display: none;
+}
