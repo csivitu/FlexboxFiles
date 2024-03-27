@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "TodoList manager fir Flexbox Files project CSI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csivitu/FlexboxFiles.git"
+  },
+  "author": "Manas Laud and Keshav Aneja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csivitu/FlexboxFiles/issues"
+  },
+  "homepage": "https://github.com/csivitu/FlexboxFiles#readme"
+}
