@@ -5,39 +5,28 @@
   box-sizing: border-box;
   font-family: "Roboto";
 }
-.--wrapper {
+nav {
   width: 100%;
-  height: 100%;
-  min-height: 100vh;
+  height: 5rem;
+  padding: 0rem 5rem;
   background-color: #262626;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.--card {
-  width: 28rem;
-  padding: 1.5rem;
-  background: #ffffff;
-  border-radius: 2rem;
-
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-
-  box-shadow: 10px 10px 0px #ffa500;
-}
-
-.--card-img {
-  width: 100%;
-  border-radius: 1rem;
-}
-
-span {
-  display: inline-block;
+.--logo {
   color: white;
-  background: #ffa500;
-  padding: 8px;
-  border-radius: 5px;
-  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
 }
-h1 {
-  margin-block: 0.5rem;
+.--links {
+  display: flex;
+  gap: 1rem;
+}
+.--links li {
+  list-style-type: none;
+}
+.--links a {
+  color: white;
+  text-decoration: none;
 }
