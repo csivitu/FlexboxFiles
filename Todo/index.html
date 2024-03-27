@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <title>Todo List</title>
 </head>
 <body>
+    <main class="middleContainer">
+        <div class="mainHeader">
+            <h1>Today</h1>
+            <button class="taskNumberIndicator"> 5</button>
+        </div>
+        <button class="addNewTaskBtn"> 
+            <p>Add new task</p>
+            <img src="./public/icons8-plus-48.png" alt="Plus icon" style="aspect-ratio: square; width: 26px;">
+        </button>
+    </main>
     <aside class="asideBar">
     <div class="upperPart">
         <h1 style="font-weight: 800; font-size: 3rem;">Task</h1>
@@ -17,16 +28,16 @@
     </div>
     <div class="middlePart">
         <div class="addToList">
-            <h1>Add to List</h1>
+            <h1 style="color: grey; font-size: large;">Add to List</h1>
             <select id="cars">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="opel">Opel</option>
-                <option value="audi">Audi</option>
+                <option value="volvo">Option</option>
+                <option value="saab">Option</option>
+                <option value="opel">Option</option>
+                <option value="audi">Option</option>
               </select>
         </div>
         <div class="addATag">
-            <h1>Add a Tag</h1>
+            <h1 style="color: grey; font-size: large;">Add a Tag</h1>
             <div class="tagsContainer">
                 <button class="tags" style="background-color: aquamarine;">Urgent</button>
                 <button class="tags" style="background-color: yellow;">Completed</button>

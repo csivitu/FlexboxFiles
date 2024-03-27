@@ -4,9 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    right: 0;
-    background-color: beige;
+    background-color: #ebeff5;
     padding:2rem;
     width: 20vw;
 }
@@ -83,12 +81,13 @@ option{
     gap: 1rem;
 }
 .saveBtnAside{
-    padding: 0.2rem 1.5rem 0.2rem 1.5rem;;
-    font-size: 1.5rem;
+    padding: 0.2rem 2rem 0.2rem 2rem;;
+    font-size: 1.7rem;
     background-color: green;
     border: 0;
     color: white;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 .cancelBtnAside{
     padding: 0.2rem 1.5rem 0.2rem 1.5rem;;
@@ -97,4 +96,5 @@ option{
     border: 0;
     color: gray;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
